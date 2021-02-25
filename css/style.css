@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: BRoya, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  direction: rtl;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button-toggle{
+    border: #424750 solid 0.5px;
+}
+
+.a-logo{
+    margin: auto 15px;
+}
+
+#img-logo {
+  max-height: 70px;
+  max-width: 200px;
+  float: right;
+}
+
+.form-search {
+  margin: 0 5px 0 0;
+  padding: 2px;
+  background-color: #f0f0f1;
+  border-radius: 10px;
+}
+
+
+.input-search {
+  background-color: inherit;
+  border: none;
+}
+
+.btn-search {
+  background-color: inherit;
+  border: none;
+}
+
+.a-sign-in-up,
+.a-shop-basket {
+  color: #424750;
+  margin: auto 15px;
+  border-bottom: 0.7px solid #e4e4e6;
+  border-radius: 10px;
+  float: right;
+}
+
+.header-divider{
+    border-left: 0.7px dashed #777777;
+    box-shadow: #424750 0.4px 0.4px;
+}
+
+@font-face {
+  font-family: BRoya;
+  src: url(./../fonts/BRoya.eot) format("eot");
+  src: url(./../fonts/BRoya.ttf) format("truetype");
+  src: url(./../fonts/BRoya.woff) format("woff");
+}
+
+@font-face {
+  font-family: shabnamFont;
+  src: url(./../fonts/Shabnam-Light-FD.eot) format("eot");
+  src: url(./../fonts/Shabnam-Bold-FD.ttf) format("truetype");
+  src: url(./../fonts/Shabnam-Light-FD.woff) format("woff");
+}
