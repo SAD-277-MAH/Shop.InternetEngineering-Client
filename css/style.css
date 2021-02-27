@@ -80,3 +80,9 @@ a {
   src: url(./../fonts/Shabnam-Bold-FD.ttf) format("truetype");
   src: url(./../fonts/Shabnam-Light-FD.woff) format("woff");
 }
+footer{
+  background-color: darkgrey;
+  font-size: 14px;
+  height: 200px;
+  margin-bottom: 0px;
+}
