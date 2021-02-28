@@ -10,6 +10,11 @@ body {
   direction: rtl;
 }
 
+nav {
+  margin: 5px 0;
+  align-items: center;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -21,12 +26,16 @@ a {
   text-decoration: none;
 }
 
-.button-toggle{
-    border: #424750 solid 0.5px;
+li{
+  list-style: none;
 }
 
-.a-logo{
-    margin: auto 15px;
+.button-toggle {
+  border: #424750 solid 0.5px;
+}
+
+.a-logo {
+  margin: auto 15px;
 }
 
 #img-logo {
@@ -42,29 +51,39 @@ a {
   border-radius: 10px;
 }
 
-
-.input-search {
-  background-color: inherit;
-  border: none;
-}
-
+.input-search,
 .btn-search {
   background-color: inherit;
   border: none;
 }
 
 .a-sign-in-up,
-.a-shop-basket {
+.a-shop-basket,
+.div-category,
+.a-mainpage,
+.a-market,
+.a-contact {
   color: #424750;
   margin: auto 15px;
-  border-bottom: 0.7px solid #e4e4e6;
   border-radius: 10px;
   float: right;
 }
 
-.header-divider{
-    border-left: 0.7px dashed #777777;
-    box-shadow: #424750 0.4px 0.4px;
+.header-divider {
+  border-left: 0.7px dashed #777777;
+  box-shadow: #424750 0.4px 0.4px;
+}
+
+.div-category-list {
+  margin-top: 35px;
+  display: none;
+  border: 0.3px solid #aabbcc;
+  border-radius: 5px;
+}
+
+.li-category{
+  text-align: start;
+  margin: 4px 10px;
 }
 
 @font-face {
@@ -80,7 +99,7 @@ a {
   src: url(./../fonts/Shabnam-Bold-FD.ttf) format("truetype");
   src: url(./../fonts/Shabnam-Light-FD.woff) format("woff");
 }
-footer{
+footer {
   background-color: darkgrey;
   font-size: 14px;
   height: 200px;

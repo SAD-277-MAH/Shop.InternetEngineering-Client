@@ -14,59 +14,107 @@
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg">
-        <button class="navbar-toggler button-toggle" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-        </button>
-        <a class="navbar-brand a-logo" href="#">
-            <img id="img-logo" width="200" height="70" src="./images/shop-logo.png" alt="فروشگاه لوازم جانبی">
-        </a>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <form class="form-inline form-search row col-lg-7">
-                <input class="form-control input-search col-10" type="text" placeholder="جستجوی محصولات ..."
-                    aria-label="Search">
-                <button class="btn-search col-2" type="submit">
-                    <span class="fa fa-search" aria-hidden="true"></span>
-                </button>
-            </form>
-            <ul class="navbar-nav navbar-light">
-                <li class="nav-item mr-xl-5 ml-xl-5 mr-lg-1 ml-lg-1">
-                    <a class="nav-link a-sign-in-up" href=" ">
-                        <i class="fa fa-user-o" aria-hidden="true"></i>
-                        <span class=""> ورود / عضویت</span>
-                    </a>
-                </li>
-                <li class="header-divider"></li>
-                <li class="nav-item mr-xl-5 ml-xl-5">
-                    <a class="nav-link a-shop-basket" href=" " aria-disabled="true">
-                        <i class="fa fa-shopping-basket" aria-hidden="true"></i>
-                        <span>سبد خرید</span></a>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <div class="container-fluid">
+        <header class="row navbar navbar-expand-lg">
+            <button class="navbar-toggler button-toggle" type="button" data-toggle="collapse"
+                data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <a class="navbar-brand a-logo" href="#">
+                <img id="img-logo" width="200" height="70" src="./images/shop-logo.png" alt="فروشگاه لوازم جانبی">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <form class="form-inline form-search row col-lg-7">
+                    <input class="form-control input-search col-10" type="text" placeholder="جستجوی محصولات ..."
+                        aria-label="Search">
+                    <button class="btn-search col-2" type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+                <ul class="navbar-nav navbar-light">
+                    <li class="nav-item mr-xl-5 ml-xl-5 mr-lg-1 ml-lg-1">
+                        <a class="nav-link a-sign-in-up" href=" ">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                            <span class=""> ورود / عضویت</span>
+                        </a>
+                    </li>
+                    <li class="header-divider"></li>
+                    <li class="nav-item mr-xl-5 ml-xl-5" id="shopBasket">
+                        <a class="nav-link a-shop-basket" href=" " aria-disabled="true">
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            <span>سبد خرید</span></a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="row collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav navbar-light">
+                    <li class="nav-item mr-xl-5 ml-xl-5 mr-lg-1 ml-lg-1">
+                        <div class="div-category">
+                            <i class="fa fa-list" aria-hidden="true"></i>
+                            <span class="mr-2">دسته بندی محصولات</span>
+                        </div>
+                        <div class="div-category-list">
+                            <div>
+                                <ul>
+                                    <li class="li-category">
+                                        دسته اول
+                                    </li>
+                                    <li class="li-category">
+                                        دسته دوم
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-item mr-xl-5 ml-xl-5 mr-lg-1 ml-lg-1">
+                        <a href=" " class="a-mainpage">
+                            <span> صفحه اصلی</span>
+                        </a>
+                    </li>
+                    <li class="nav-item nav-item mr-xl-5 ml-xl-5 mr-lg-1 ml-lg-1">
+                        <a href=" " class="a-market">
+                            <span>فروشگاه</span>
+                        </a>
+                    </li>
+                    <li class="nav-item nav-item mr-xl-5 ml-xl-5 mr-lg-1 ml-lg-1">
+                        <a href=" " class="a-contact">
+                            <span>تماس با ما</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
     <div style="height:450px;">
 
     </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row" style="height: 150px;">
+                <div class="col-lg-4 col-md-1" style=" text-align: center;">
+                    متن 1
+                </div>
+                <div class="col-lg-4 col-md-1" style=" text-align: center;">
+                    متن 2
+                </div>
+                <div class="col-lg-4 col-md-1" style=" text-align: center;">
+                    متن 3
+                </div>
+            </div>
+            <div class="row"></div>
+            <div class="col-12" style="text-align: center; font-size: large; font-size: 20px; font-weight: bold;"> تمامی
+                حقوق مادی و معنوی این صفحه محفوظ می باشد.</div>
+        </div>
+    </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
 </body>
-<footer>
-    <div class="container-fluid">
-    <div class="row" style="height: 150px;">
-        <div class="col-lg-4 col-md-1" style=" text-align: center;">
-            متن 1
-        </div>
-        <div class="col-lg-4 col-md-1" style=" text-align: center;">
-            متن 2
-        </div>
-        <div class="col-lg-4 col-md-1" style=" text-align: center;">
-            متن 3
-        </div>
-    </div>
-    <div class="row"></div><div class="col-12" style="text-align: center; font-size: large; font-size: 20px; font-weight: bold;">  تمامی حقوق مادی و معنوی این صفحه متعلق به تیم nlppln  می باشد.</div>
-    </div>
-</footer>
 
 </html>
