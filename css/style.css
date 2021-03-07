@@ -18,12 +18,12 @@ nav {
 img {
   max-width: 100%;
   height: auto;
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
 }
 
 a {
   text-decoration: none;
+  color: #424750;
 }
 
 li{
@@ -81,9 +81,26 @@ li{
   border-radius: 5px;
 }
 
+.span-margin{
+  margin: 5px 20px 5px 0px;
+}
+
 .li-category{
   text-align: start;
   margin: 4px 10px;
+}
+
+.items-category{
+  margin: 30px 50px 0px 50px;
+}
+
+.img-margin{
+  margin-top: 10px;
+}
+
+.img-item-category{
+  border-radius: 10px;
+  border: 2px solid #dbdbdb;
 }
 
 @font-face {
