@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/font-awesome.min.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" type="text/CSS">
+    <link rel="stylesheet" href="./css/nice-select.css">
+    <link rel="stylesheet" href="./css/nouislider.min.css">
+    <link rel="stylesheet" href="./css/shop.css">
+    <link rel="shortcut icon" href="./images/favicon-logo.png" type="images/png">
+    <link rel="stylesheet" href="">
+    <title>فروشگاه لوازم جانبی</title>
+</head>
+
+<body>
+    <div class="container-fluid div-starter">
+        <header class="row navbar navbar-expand-lg hi">
+            <button class="navbar-toggler button-toggle" type="button" data-toggle="collapse"
+                data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <a class="navbar-brand a-logo" href="#">
+                <img id="img-logo" width="200" height="70" src="./images/shop-logo.png" alt="فروشگاه لوازم جانبی">
+            </a>
+            <div>
+
+            </div>
+            <div class="collapse navbar-collapse flo" id="navbarCollapse">
+                <form class="form-inline form-search row col-lg-7">
+                    <input class="form-control input-search col-10" type="text" placeholder="جستجوی محصولات ..."
+                        aria-label="Search">
+                    <button class="btn-search col-2" type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+                <ul class="navbar-nav navbar-light">
+                    <li class="nav-item mr-xl-5 ml-xl-5 mr-lg-1 ml-lg-1">
+                        <a class="nav-link a-sign-in-up" href="#">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                            <span class=""> ورود / عضویت</span>
+                        </a>
+                    </li>
+                    <li class="header-divider"></li>
+                    <li class="nav-item mr-xl-5 ml-xl-5" id="shopBasket">
+                        <a class="nav-link a-shop-basket" href="#" aria-disabled="true">
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            <span>سبد خرید</span></a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="row collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav navbar-light">
+                    <li class="nav-item mr-5 ml-5">
+                        <div class="dropdown show li-nav">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-list" aria-hidden="true"></i>
+                                <span class="mr-2">دسته بندی محصولات</span>
+                            </a>
+
+                            <div class="dropdown-menu div-show" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                                    <span class="span-margin">کیبورد</span>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-headphones" aria-hidden="true"></i>
+                                    <span class="span-margin">هدفون و هندزفری</span>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hdd-o" aria-hidden="true"></i>
+                                    <span class="span-margin">وسایل ذخیره سازی</span>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hdd-o" aria-hidden="true"></i>
+                                    <span class="span-margin">وسایل ذخیره سازی</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item li-nav">
+                        <a href="#" class="a-mainpage">
+                            <span> صفحه اصلی</span>
+                        </a>
+                    </li>
+                    <li class="nav-item li-nav">
+                        <a href="#" class="a-market">
+                            <span>فروشگاه</span>
+                        </a>
+                    </li>
+                    <li class="nav-item li-nav">
+                        <a href="#" class="a-contact">
+                            <span> درباره ما</span>
+                        </a>
+                    </li>
+                    <li class="nav-item li-nav">
+                        <a href="#" class="a-contact">
+                            <span>تماس با ما</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
+    <div class="container-fluid clr-w">
+        <div class="main">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-5">
+                    <div class="sidebar-categories">
+                        <div class="head">دسته بندی ها</div>
+                        <ul class="main-categories">
+                            <li class="main-nav-list">
+                                <a data-toggle="collapse" href="#keyborad" aria-expanded="false"
+                                    aria-controls="fruitsVegetable">
+                                    کیبورد
+                                    <!-- <i class="fa fa-chevron-left icon-lwr" aria-hidden="true"></i> -->
+                                </a>
+                            </li>
+
+                            <li class="main-nav-list">
+                                <a data-toggle="collapse" href="#mouse" aria-expanded="false">
+                                    ماوس
+                                </a>
+                            </li>
+                            <li class="main-nav-list"><a data-toggle="collapse" href="#monitor" aria-expanded="false"
+                                    aria-controls="monitor">
+                                    مانیتور</a>
+                            </li>
+                            <li class="main-nav-list"><a data-toggle="collapse" href="#headphone" aria-expanded="false"
+                                    aria-controls="headphone">هدفون و هندزفری
+                                    <i class="fa fa-chevron-left icon-lwr" aria-hidden="true"></i></a>
+                                <ul class="collapse" id="headphone" data-toggle="collapse" aria-expanded="false"
+                                    aria-controls="headphone">
+                                    <li class="main-nav-list child"><a href="#">هدفون</a></li>
+                                    <li class="main-nav-list child"><a href="#">هندزفری</a></li>
+                                    <li class="main-nav-list child"><a href="#">میکروفون</a></li>
+                                </ul>
+                            </li>
+                            <li class="main-nav-list"><a data-toggle="collapse" href="#storediv" aria-expanded="false"
+                                    aria-controls="storediv">وسایل ذخیره سازی
+                                    <i class="fa fa-chevron-left icon-lwr" aria-hidden="true"></i></a>
+                                <ul class="collapse" id="storediv" data-toggle="collapse" aria-expanded="false"
+                                    aria-controls="storediv">
+                                    <li class="main-nav-list child"><a href="#">HDD</a></li>
+                                    <li class="main-nav-list child"><a href="#">SDD</a></li>
+                                    <li class="main-nav-list child"><a href="#">نمونه 1</a></li>
+                                </ul>
+                            </li>
+                            <li class="main-nav-list"><a data-toggle="collapse" href="#network" aria-expanded="false"
+                                    aria-controls="network">تجهزات شبکه
+                                    <i class="fa fa-chevron-left icon-lwr" aria-hidden="true"></i></a>
+                                <ul class="collapse" id="network" data-toggle="collapse" aria-expanded="false"
+                                    aria-controls="network">
+                                    <li class="main-nav-list child"><a href="#">نمونه 1</a></li>
+                                    <li class="main-nav-list child"><a href="#">نمونه 2</a></li>
+                                    <li class="main-nav-list child"><a href="#">نمونه 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-filter mt-50">
+                        <div class="top-filter-head">فیلتر محصولات</div>
+                        <div class="common-filter">
+                            <div class="head">برند</div>
+                            <form action="#">
+                                <ul>
+                                    <li class="filter-list"><input class="pixel-radio" type="radio" id="Hyperx"
+                                            name="brand"><label for="apple">Hyperx</label></li>
+                                    <li class="filter-list"><input class="pixel-radio" type="radio" id="Razer"
+                                            name="brand"><label for="asus">Razer</label></li>
+                                    <li class="filter-list"><input class="pixel-radio" type="radio" id="Logitech"
+                                            name="brand"><label for="gionee">Logitech</label></li>
+                                    <li class="filter-list"><input class="pixel-radio" type="radio" id="micromax"
+                                            name="brand"><label for="micromax">Micromax</label></li>
+                                    <li class="filter-list"><input class="pixel-radio" type="radio" id="samsung"
+                                            name="brand"><label for="samsung">Samsung</label></li>
+                                </ul>
+                            </form>
+                        </div>
+                        <div class="common-filter">
+                            <div class="head">رنگ</div>
+                            <form action="#">
+                                <ul>
+                                    <li class="filter-list"><input class="pixel-radio" type="radio" id="black"
+                                            name="color"><label for="black">Black</label></li>
+                                    <li class="filter-list"><input class="pixel-radio" type="radio" id="balckleather"
+                                            name="color"><label for="balckleather">Black
+                                            Leather</label></li>
+                                    <li class="filter-list"><input class="pixel-radio" type="radio" id="blackred"
+                                            name="color"><label for="blackred">Black
+                                            with red</label></li>
+                                    <li class="filter-list"><input class="pixel-radio" type="radio" id="gold"
+                                            name="color"><label for="gold">Gold</label></li>
+                                    <li class="filter-list"><input class="pixel-radio" type="radio" id="spacegrey"
+                                            name="color"><label for="spacegrey">Spacegrey</label></li>
+                                </ul>
+                            </form>
+                        </div>
+                        <div class="common-filter">
+                            <div class="head">قیمت</div>
+                            <div class="price-range-area">
+                                <div id="price-range"></div>
+                                <div class="value-wrapper d-flex">
+                                    <div class="price">قیمت :</div>
+                                    <span></span>
+                                    <div id="lower-value"></div>
+                                    <div class="to">تا</div>
+                                    <span></span>
+                                    <div id="upper-value"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-8 col-md-7">
+                    <!-- Start Filter Bar -->
+                    <div class="filter-bar d-flex flex-wrap align-items-center">
+                        <div class="sorting">
+                            <select>
+                                <option value="1">پر بازدید ترین</option>
+                                <option value="1">پر فروش ترین</option>
+                                <option value="1">محبوب ترین</option>
+                            </select>
+                        </div>
+                        <div class="sorting mr-auto">
+                            <select>
+                                <option value="1">نمایش 12 تایی</option>
+                                <option value="1">نمایش 24 تایی</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- End Filter Bar -->
+                    <!-- Start Best Seller -->
+                    <section class="lattest-product-area pb-40 category-list">
+                        <div class="row">
+                            <!-- single product -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-product">
+                                    <img class="img-fluid" src="./images/headphone2.jpg" alt="">
+                                    <div class="product-details">
+                                        <p>هدفون مدل LE-8</p>
+                                        <div class="price">
+                                            <p class="fl-lft">1000000 تومان</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single product -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-product">
+                                    <img class="img-fluid"
+                                        src="./images/5a553b42cd48a619d7ff08579b276edff674e413_1614605357.jpg" alt="">
+                                    <div class="product-details">
+                                        <p>هدفون بلوتوثی مدل ...</p>
+                                        <div class="price">
+                                            <p class="fl-lft">1000000 تومان</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single product -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-product">
+                                    <img class="img-fluid" src="./images/114928544.jpg" alt="">
+                                    <div class="product-details">
+                                        <p>هارد اکسترنال مدل ...</p>
+                                        <div class="price">
+                                            <p class="fl-lft">1000000 تومان</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single product -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-product">
+                                    <img class="img-fluid" src="./images/keyboard.jpg" alt="">
+                                    <div class="product-details">
+                                        <p>کیبورد مدل</p>
+                                        <div class="price">
+                                            <p class="fl-lft">1000000 تومان</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single product -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-product">
+                                    <img class="img-fluid" src="./images/headphone2.jpg" alt="">
+                                    <div class="product-details">
+                                        <p>هدفون مدل LE-8</p>
+                                        <div class="price">
+                                            <p class="fl-lft">1000000 تومان</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single product -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-product">
+                                    <img class="img-fluid" src="./images/headphone2.jpg" alt="">
+                                    <div class="product-details">
+                                        <p>هدفون مدل LE-8</p>
+                                        <div class="price">
+                                            <p class="fl-lft">1000000 تومان</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-product">
+                                    <img class="img-fluid" src="./images/headphone2.jpg" alt="">
+                                    <div class="product-details">
+                                        <p>هدفون مدل LE-8</p>
+                                        <div class="price">
+                                            <p class="fl-lft">1000000 تومان</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-product">
+                                    <img class="img-fluid" src="./images/headphone2.jpg" alt="">
+                                    <div class="product-details">
+                                        <p>هدفون مدل LE-8</p>
+                                        <div class="price">
+                                            <p class="fl-lft">1000000 تومان</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-product">
+                                    <img class="img-fluid" src="./images/headphone2.jpg" alt="">
+                                    <div class="product-details">
+                                        <p>هدفون مدل LE-8</p>
+                                        <div class="price">
+                                            <p class="fl-lft">1000000 تومان</p>
+                                        </div>
+                                        <!-- <div class="prd-bottom">
+
+                                        <a href="" class="social-info">
+                                            <span class="ti-bag"></span>
+                                            <p class="hover-text">add to bag</p>
+                                        </a>
+                                        <a href="" class="social-info">
+                                            <span class="lnr lnr-heart"></span>
+                                            <p class="hover-text">Wishlist</p>
+                                        </a>
+                                        <a href="" class="social-info">
+                                            <span class="lnr lnr-sync"></span>
+                                            <p class="hover-text">compare</p>
+                                        </a>
+                                        <a href="" class="social-info">
+                                            <span class="lnr lnr-move"></span>
+                                            <p class="hover-text">view more</p>
+                                        </a>
+                                    </div> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                    <!-- End Best Seller -->
+                    <!-- Start Filter Bar -->
+                    <div class="filter-bar d-flex flex-wrap align-items-center">
+                        <div class="pagination">
+                            <a href="#" class="prev-arrow"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
+                            <a href="#" class="active">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#" class="dot-dot"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                            <a href="#">6</a>
+                            <a href="#" class="next-arrow"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <!-- End Filter Bar -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="list-group">
+                        <div class="footer_group_item">
+                            <p class="p-title">
+                                دسترسی سریع :
+                            </p>
+                        </div>
+                        <a href="#" class="footer-item">صفحه اصلی </a>
+                        <a href="#" class="footer-item">فروشگاه </a>
+                        <a href="#" class="footer-item">تماس با ما </a>
+                        <a href="#" class="footer-item">درباره ما </a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="list-group">
+                        <div class="footer_group_item">
+                            <p class="p-title">
+                                خدمات مشتریان :
+                            </p>
+                        </div>
+                        <a href="#" class="footer-item">سوالات متداول </a>
+                        <a href="#" class="footer-item">ورود به حساب </a>
+                        <a href="#" class="footer-item">سوابق سفارشات </a>
+                        <a href="#" class="footer-item">پیگیری سفارش </a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3" style=" text-align: center;">
+                    <div class="list-group">
+                        <div class="footer_group_item">
+                            <p class="p-title">
+                                ارتباط با ما :
+                            </p>
+                        </div>
+                        <a href="#" class="a-contactwith cont-telegram">
+                            <span>Telegram</span>
+                            <i class="fa fa-telegram""></i> 
+                        </a>
+                        <a href=" #" class="a-contactwith cont-instagram">
+                                <span>Instagram</span>
+                                <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="#" class="a-contactwith cont-whatsapp">
+                            <span>Whatsapp</span>
+                            <i class="fa fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="div-informant">
+                        <p>
+                            <span>از تخفیف ها و جدید ترین ها با خبر شوید :</span>
+                        </p>
+                        <div class="div-fields">
+                            <form id=" " method=" ">
+                                <div class="div-inputs row">
+                                    <input class="col-9 in-email" type="email" name="EMAIL"
+                                        placeholder="ایمیل خود را وارد کنید">
+                                    <input class="col-3 in-send" type="submit" value="ارسال">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 div-txt-ls">
+                    <p>فروشگاه اینترنتی لوازم جانبی کامپیوتر</p>
+                    <p>با پایبندی به سه اصل، رضایت مشتری، قیمت پایین کالا و تضمین اصل‌بودن کالا موفق شده تا همگام با
+                        فروشگاه‌های معتبر ایران، به یکی از فروشگاه اینترنتی ایران تبدیل شود.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="footer-img">
+                        <img class="im-footer" width="225" height="290" src="./images/logo_enmad.jpg"
+                            alt="فروشگاه لوازم جانبی">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 container div-copyright"> تمامی
+                    حقوق مادی و معنوی این صفحه محفوظ می باشد.</div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/nouislider.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/shop.js"></script>
+
+</body>
+
+</html>

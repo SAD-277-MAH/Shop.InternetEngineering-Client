@@ -34,7 +34,7 @@ nav {
 }
 
 main {
-  background-color: #fafafa;
+  background-color: #f5f5f5;
 }
 
 img {
@@ -50,6 +50,10 @@ a {
 
 li {
   list-style: none;
+}
+
+.div-starter {
+  box-shadow: 0px 0px 5px 0px #868686;
 }
 
 .button-toggle {
@@ -95,11 +99,23 @@ li {
   box-shadow: #424750 0.4px 0.4px;
 }
 
-.div-category-list {
-  margin-top: 35px;
-  display: none;
-  border: 0.3px solid #aabbcc;
-  border-radius: 5px;
+.nav-item {
+  font-weight: 500;
+  color: #272727;
+}
+
+.li-nav {
+  margin: 5px 30px;
+}
+
+.div-show {
+  width: 100%;
+}
+
+.div-show a {
+  text-align: start;
+  font-size: 18px;
+  margin: 10px auto;
 }
 
 .span-margin {
@@ -111,13 +127,102 @@ li {
   margin: 4px 10px;
 }
 
+.flo {
+  position: relative;
+  float: left;
+}
 /*  */
-
-.action{
-
+.padding_dd {
+  margin: 0px auto 50px;
+  padding: 0px 50px;
 }
 
-.action .profile{
+.text-bg {
+  text-align: center;
+}
+
+.po {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.div-inf {
+  margin: 60px auto 10px;
+}
+
+.div-sub-inf {
+  border: 1px solid #e95485;
+  border-radius: 5px;
+  margin: 0 15%;
+  padding: 5px;
+}
+
+.clr-pd {
+  color: #e95485;
+  padding: 5px;
+}
+
+.p-inf {
+  font-size: 22px;
+  color: #020500;
+  line-height: 30px;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+.text-bg h1 {
+  font-size: 34px;
+  color: #e95485;
+  line-height: 30px;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+.images_box {
+  align-items: center;
+}
+
+.images_box figure {
+  margin: 0px;
+}
+.images_box figure img {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 350px;
+}
+
+.center-div {
+  margin: 20px auto;
+  padding: 40px;
+}
+
+.clr-wh {
+  background-image: linear-gradient(315deg, #fd687c 5% , #ffffff 40%);
+}
+
+/* .clr-p{
+  background-color: #E894A3;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.clr-pl{
+  background-color: #EDC4CC;
+}
+
+.clr-br{
+  background-color: #3E80A2;
+}
+
+.clr-bl{
+  background-color: #76B3D2;
+  border-radius: 5px 0px 0px 5px;
+} */
+/*  */
+
+.action {
+}
+
+.action .profile {
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -139,14 +244,14 @@ li {
   -moz-transform: translateY(50px);
   -ms-transform: translateY(50px);
   -o-transform: translateY(50px);
-  transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
-.action .menu-cat.active{
+.action .menu-cat.active {
   opacity: 1;
   transform: translateY(0);
   -webkit-transform: translateY(0);
@@ -154,7 +259,7 @@ li {
   -ms-transform: translateY(0);
   -o-transform: translateY(0);
 }
-.action .menu-cat::before{
+.action .menu-cat::before {
   position: absolute;
   background: #fff;
   transform: rotate(45deg);
@@ -164,21 +269,20 @@ li {
   -o-transform: rotate(45deg);
 }
 
-.action .menu-cat ul{
+.action .menu-cat ul {
   width: 100%;
   list-style: none;
   padding: 0 30px;
   box-sizing: border-box;
 }
 
-.action .menu-cat ul li{
+.action .menu-cat ul li {
   display: flex;
   align-items: center;
   padding: 10px 0;
-  
 }
 
-.action .menu-cat ul li a{
+.action .menu-cat ul li a {
   text-decoration: none;
   color: #000;
 }
@@ -187,7 +291,7 @@ li {
 
 /* slider and main*/
 
-.sec-margin{
+.sec-margin {
   width: 100%;
   margin: 2% 0%;
 }
@@ -276,7 +380,7 @@ a:hover {
 
 .p-discount {
   color: #ececec;
-  margin: 30px 0;
+  margin: 20px 0;
   padding: 0 50px;
   font-size: 26px;
   text-align: start;
@@ -298,10 +402,10 @@ a:hover {
 }
 
 .itemdiscount {
-  width: 280px;
+  width: 290px;
   height: 275px;
   float: right;
-  margin: 20px 5px 0;
+  margin: 20px 8px 0;
   background: white;
 }
 
@@ -630,7 +734,7 @@ a.controlbs_next {
 }
 
 .category {
-  margin: 0 5%;
+  margin: 3% 5%;
   padding-bottom: 10px;
   box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
   border-radius: 5px;
@@ -642,14 +746,15 @@ a.controlbs_next {
 }
 
 .img-category {
-  padding: 10px 33px;
+  margin: 10px auto;
   width: 100%;
 }
 
 .im {
   display: block;
   margin: auto;
-  max-height: 64px;
+  max-height: 65px;
+  max-width: 105px;
 }
 
 .p-features,
