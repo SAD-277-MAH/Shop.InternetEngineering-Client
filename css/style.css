@@ -439,7 +439,7 @@ a:hover {
 }
 
 footer {
-  margin: 20px auto;
+  margin: 20px auto 0px;
   padding: 30px 50px;
   color: #333;
   background-color: #d7dee0;
@@ -796,4 +796,192 @@ a.controlbs_next {
 
 .f-icon {
   margin-bottom: 20px;
+}
+
+.acc-categories{
+  background: #eef6f8;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+
+.main-acc{
+  margin: 0 20px;
+  padding: 5px;
+}
+
+.acc-list{
+  background-color: #ffffff;
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 5px;
+  border-bottom: 1px solid #ff6c00 ;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 15%);
+}
+
+.acc-list a{
+  width: 100%;
+}
+
+.acc-list a:hover{
+  color: tomato;
+}
+
+.nomargin{
+  margin: 0;
+}
+
+.danger{
+  border-radius: 5px;
+  border: 2px solid #f1413a;
+}
+
+.danger p {
+  color: #c5322d;
+}
+
+.page-kind {
+  box-shadow: 0 10px 30px rgb(0 0 0 / 5%);
+  background-image: linear-gradient(to left, #ffffff, #ffba00 350%);
+  border: 0.5px solid #dbdbdb;
+  text-align: right;
+  margin: 15px;
+}
+
+.inf-check {
+  height: 50px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 5%);
+  background: -webkit-linear-gradient(90deg, #ffd560 0%, #ff6c00 100%);
+  background: -moz-linear-gradient(90deg, #ffd560 0%, #ff6c00 100%);
+  background: -o-linear-gradient(90deg, #ffd560 0%, #ff6c00 100%);
+  background: linear-gradient(90deg, #ffd560 0%, #ff6c00 100%);
+  color: #ffffff;
+  margin: 5px 0 0;
+  padding: 5px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+
+
+.acc-details{
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.acc-title{
+  border-bottom: 0.5px solid #d1d1d1;
+  color: #020500;
+  margin: 5px 0 0;
+  padding: 15px 30px 0;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.acc-d{
+  margin-top: 10px;
+  padding: 10px;
+}
+.list-det{
+  padding: 5px;
+}
+
+.list-det li{
+  padding: 0;
+  margin: 15px 20px;
+  text-align: right;
+}
+
+.acc-list button{
+  padding: 3px;
+  width: 100%;
+  border: none;
+  background-color: #fff;
+}
+
+.acc-list button:hover{
+  color: tomato;
+}
+
+
+.in-get{
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+
+.a-editd{
+  margin: 0 20px 0 0;
+  padding: 5px 10px;
+  border: 1px solid #fd4c87;
+  color: #fd4c87;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.dis{
+  display: none;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+
+.edit-btns{
+  margin: 5px 10px 0;
+}
+
+.a-editdp{
+ margin: 0 20px 0 0;
+  padding: 5px 10px;
+  border: 1px solid #c228ff;
+  background-color: #c228ff;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.a-editconf{
+  margin: 0 20px 0 0;
+  padding: 5px 10px;
+  border: 1px solid #28ff5e;
+  background-color: #00e676;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.a-editback{
+  margin: 0 20px 0 0;
+  padding: 5px 10px;
+  border: 1px solid #ff4128;
+  background-color: #e64900;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.del-p{
+  margin: 10px 20px 0 0;
+  text-align: right;
+}
+
+.del-b{
+  margin: 5px 10px 0;
+}
+
+.del-b button{
+  
+  width: 100%;
+  margin: 0 20px 0 0;
+  padding: 5px 10px;
+  border: 1px solid #ff4128;
+  background-color: #e64900;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.acc-del{
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  margin-top: 20px;
+  padding: 10px;
 }

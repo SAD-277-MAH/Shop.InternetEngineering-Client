@@ -1,0 +1,217 @@
+/* cart */
+.th-ri {
+  text-align: right;
+}
+
+.th-ctr {
+  text-align: center;
+}
+
+.media-body {
+  margin: 2.5px 10px;
+  text-align: right;
+}
+
+.cart_inner {
+  border-bottom: 1px solid #6b6b6b;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 5%);
+}
+
+.product_count {
+  margin: 10px auto;
+}
+.product_count label {
+  font-size: 14px;
+  color: #777777;
+  font-weight: normal;
+  padding-right: 10px;
+}
+.product_count input {
+  text-align: center;
+  width: 50px;
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+.product_count button {
+  margin-top: 5px;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #cccccc;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.product_count button:hover {
+  color: #222222;
+}
+.product_count .increase {
+  float: left;
+  color: #3cff56;
+}
+.product_count .reduced {
+  float: right;
+  color: #ff3e3e;
+}
+
+.td-price {
+  margin: 5px;
+  text-align: right;
+}
+
+.td-price span {
+}
+
+.td-pricetotal {
+  margin: 5px;
+  text-align: center;
+}
+
+.inf-cart {
+  height: 50px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 5%);
+  background: -webkit-linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
+  background: -moz-linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
+  background: -o-linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
+  background: linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
+  color: #ffffff;
+  margin: 5px 0 0;
+  padding: 5px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.div-cupon {
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  margin: 20px auto;
+}
+
+.cupon_text {
+  border: 0.5px dashed #777777;
+  padding: 10px;
+  text-align: right;
+}
+
+.cupon p {
+  font-size: 22px;
+  font-weight: bold;
+}
+.div-cupondetails {
+  margin: 5px auto;
+  padding: 10px;
+}
+
+.div-cupondetails a {
+  margin: 0 10px;
+}
+
+.div-cupondetails input {
+  height: 40px;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+}
+
+.primary-btn {
+  border: 1px solid #fd4c87;
+  color: #fd4c87;
+  border-radius: 5px;
+}
+
+.gray_btn {
+  border: 1px solid #3d3d3d;
+  color: #ffffff;
+  background-color: #9c9c9c;
+  border-radius: 5px;
+}
+
+.div-subtotal {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.div-subtotal span {
+  margin: 2.5px;
+}
+
+.bld {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.div-htsend {
+  border: 0.5px dashed #777777;
+  padding: 10px;
+  text-align: right;
+}
+
+.tsend {
+  margin: 0 10px 0 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.div-pey {
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  padding: 5px 0;
+  border: 1px dashed #2fd3aa;
+  border-radius: 5px;
+  margin: 20px 0;
+  text-align: right;
+}
+
+.tpey {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.pey {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.second-btn {
+  border: 1px solid #7b2fd3;
+  color: #802283;
+  border-radius: 5px;
+}
+
+.pey-btns {
+  margin: 20px;
+}
+
+.pey-btns a {
+  margin: 0 20px;
+}
+
+.page-kind {
+  box-shadow: 0 10px 30px rgb(0 0 0 / 5%);
+  background-image: linear-gradient(to left, #ffffff, #ffba00 350%);
+  border: 0.5px solid #dbdbdb;
+  text-align: right;
+  margin: 15px;
+}
+
+.td-icon {
+  text-align: center;
+}
+
+.td-icon i {
+  margin-top: 10px;
+  color: #ff3e3e;
+}
