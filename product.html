@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/font-awesome.min.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" type="text/CSS">
+	<link href="./css/main.css" rel="stylesheet">
+
+    <title>مشخصات محصول</title>
+</head>
+
+<body>
+    <div class="container-fluid div-starter">
+        <header class="row navbar navbar-expand-lg hi">
+            <button class="navbar-toggler button-toggle" type="button" data-toggle="collapse"
+                data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <a class="navbar-brand a-logo" href="#">
+                <img id="img-logo" width="200" height="70" src="./images/shop-logo.png" alt="فروشگاه لوازم جانبی">
+            </a>
+            <div>
+
+            </div>
+            <div class="collapse navbar-collapse flo" id="navbarCollapse">
+                <form class="form-inline form-search row col-lg-7">
+                    <input class="form-control input-search col-10" type="text" placeholder="جستجوی محصولات ..."
+                        aria-label="Search">
+                    <button class="btn-search col-2" type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+                <ul class="navbar-nav navbar-light">
+                    <li class="nav-item mr-xl-5 ml-xl-5 mr-lg-1 ml-lg-1">
+                        <a class="nav-link a-sign-in-up" href="#">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                            <span class=""> ورود / عضویت</span>
+                        </a>
+                    </li>
+                    <li class="header-divider"></li>
+                    <li class="nav-item mr-xl-5 ml-xl-5" id="shopBasket">
+                        <a class="nav-link a-shop-basket" href="#" aria-disabled="true">
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            <span>سبد خرید</span></a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="row collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav navbar-light">
+                    <li class="nav-item mr-5 ml-5">
+                        <div class="dropdown show li-nav">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-list" aria-hidden="true"></i>
+                                <span class="mr-2">دسته بندی محصولات</span>
+                            </a>
+
+                            <div class="dropdown-menu div-show" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                                    <span class="span-margin">کیبورد</span>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-headphones" aria-hidden="true"></i>
+                                    <span class="span-margin">هدفون و هندزفری</span>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hdd-o" aria-hidden="true"></i>
+                                    <span class="span-margin">وسایل ذخیره سازی</span>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-hdd-o" aria-hidden="true"></i>
+                                    <span class="span-margin">وسایل ذخیره سازی</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item li-nav">
+                        <a href="#" class="a-mainpage">
+                            <span> صفحه اصلی</span>
+                        </a>
+                    </li>
+                    <li class="nav-item li-nav">
+                        <a href="./shop.html" class="a-market">
+                            <span>فروشگاه</span>
+                        </a>
+                    </li>
+                    <li class="nav-item li-nav">
+                        <a href="#" class="a-contact">
+                            <span> درباره ما</span>
+                        </a>
+                    </li>
+                    <li class="nav-item li-nav">
+                        <a href="#" class="a-contact">
+                            <span>تماس با ما</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
+    
+
+        
+<!---------------------------------------------------------------------------------------->
+	<!--================Single Product Area =================-->
+	<div class="product_image_area">
+		<div class="container">
+			<div class="row s_product_inner">
+				<div class="col-lg-6">
+					<div class="s_Product_carousel">
+						<div class="single-prd-item">
+							<img class="img-fluid" src="images/keyboard2.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 offset-lg-1">
+					<div class="s_product_text" style="text-align: start;">
+						<h3>محصول شماره: ؟؟</h3>
+						<h2 >قیمت 10000 تومان</h2>
+						<ul class="list">
+							<li><a class="active" href="#" dir="rtl"><span>دسته بندی:</span>دسته ؟</a></li>
+							<li><a href="#" dir="rtl"><span>موجودی:</span> در انبار</a></li>
+						</ul>
+						<p>توضیحات محصول</p>
+						<div class="product_count">
+							<label for="qty">تعداد:</label>
+							<input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:" class="input-text qty">
+                                <div class="counterCountainer">
+                                    <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
+							        class="increase items-count" type="button"><i class="fa fa-chevron-up"></i></button>
+							    <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
+							        class="reduced items-count" type="button"><i class="fa fa-chevron-down"></i></button>
+                                </div>
+						</div>
+						<div class="card_area d-flex align-items-center">
+							<a class="primary-btn"  href="#">اضافه کردن به سبد خرید</a>
+						<!----	<a class="icon_btn" href="#"><i class="lnr lnr lnr-heart"></i></a>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--================End Single Product Area =================-->
+
+	<!--================Product Description Area =================-->
+	<section class="product_description_area">
+		<div class="container">
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+				<li class="nav-item">
+					<a class="primary-btn"  id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">توضیحات</a>
+				</li>
+				<li class="nav-item">
+					<a class="primary-btn" id="contact-tab" data-toggle="tab"  href="#contact" role="tab" aria-controls="contact"
+					 aria-selected="false">نظرات</a>
+				</li>
+                <li class="nav-item">
+					<a class="primary-btn" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+					 aria-selected="false">جزئیات</a>
+				</li>
+				<!--<li class="nav-item">
+					<a class="primary-btn" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review"
+					 aria-selected="false">پرسش و پاسخ</a>
+				</li>-->
+			</ul>
+			<div class="tab-content" id="myTabContent" dir="rtl">
+				<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab" dir="rtl">
+					<p style="text-align: start;" > این یک کالای پیشفرض می باشد که توضیحات آن در این قسمت نمایش داده می شود.</p>
+
+				</div>
+			
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="table-responsive">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h5>طول</h5>
+                                </td>
+                                <td>
+                                    <h5>128mm</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>عرض</h5>
+                                </td>
+                                <td>
+                                    <h5>508mm</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>ارتفاع</h5>
+                                </td>
+                                <td>
+                                    <h5>85mm</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>وزن</h5>
+                                </td>
+                                <td>
+                                    <h5>52گرم</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>اریابی کیفیت</h5>
+                                </td>
+                                <td>
+                                    <h5>بله</h5>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+   
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="comment_list">
+                            <div class="review_item">
+                                <div class="media">
+                                    <div class="d-flex">
+                                        <img src="img/product/review-1.png" alt="">
+                                    </div>
+                                    <div class="media-body" dir="rtl" style="text-align: start;">
+                                        <h4>صادق مهدیان</h4>
+                                        <h5>تاریخ وساعت</h5>
+                                    </div>
+                                </div>
+                                <p>این کامنت من است.</p>
+                            </div>
+                            <div class="review_item">
+                                <div class="media">
+                                    <div class="d-flex">
+                                        <img src="img/product/review-2.png" alt="">
+                                    </div>
+                                    <div class="media-body" dir="rtl" style="text-align: start;">
+                                        <h4>مسعود ربیعی</h4>
+                                        <h5>تاریخ و ساعت</h5>
+                                    </div>
+                                </div>
+                                <p>این دیگه کامنت من است.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="review_box">
+                            <h4 dir="rtl" style="text-align: start;">ثبت نظر</h4>
+                            <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="نام شما">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="ایمیل">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="number" name="number" placeholder="شماره تلفن">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="message" id="message" rows="1" placeholder="پیام"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 text-right">
+                                    <button type="submit" value="submit" class="btn primary-btn">ارسال</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- <div class="tab-pane fade show active" id="review" role="tabpanel" aria-labelledby="review-tab">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row total_rate">
+                        <div class="col-6">
+                            <div class="box_total">
+                                <h5>Overall</h5>
+                                <h4>4.0</h4>
+                                <h6>(03 Reviews)</h6>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="rating_list">
+                                <h3>Based on 3 Reviews</h3>
+                                <ul class="list">
+                                    <li><a href="#">5 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>
+                                    <li><a href="#">4 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>
+                                    <li><a href="#">3 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>
+                                    <li><a href="#">2 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>
+                                    <li><a href="#">1 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review_list">
+                        <div class="review_item">
+                            <div class="media">
+                                <div class="d-flex">
+                                    <img src="img/product/review-1.png" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <h4>Blake Ruiz</h4>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo</p>
+                        </div>
+                        <div class="review_item">
+                            <div class="media">
+                                <div class="d-flex">
+                                    <img src="img/product/review-2.png" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <h4>Blake Ruiz</h4>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo</p>
+                        </div>
+                        <div class="review_item">
+                            <div class="media">
+                                <div class="d-flex">
+                                    <img src="img/product/review-3.png" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <h4>Blake Ruiz</h4>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="review_box">
+                        <h4>Add a Review</h4>
+                        <p>Your Rating:</p>
+                        <ul class="list">
+                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        </ul>
+                        <p>Outstanding</p>
+                        <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Full name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Full name'">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="number" name="number" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" id="message" rows="1" placeholder="Review" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Review'"></textarea></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-right">
+                                <button type="submit" value="submit" class="primary-btn">Submit Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </div>
+</div>
+	</section>
+<!---------------------------------------------------------------------------------------->
+
+        
+        <section class="sec-fig">
+            <div class="container features">
+                <div class="row div-features">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-features bn">
+                            <div class="f-icon">
+                                <img class="im" src="./images/free-delivery.png" alt="">
+                            </div>
+                            <h6 class="p-features">حمل رایگان</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-features">
+                            <div class="f-icon">
+                                <img class="im" src="./images/return-policy.png" alt="">
+                            </div>
+                            <h6 class="p-features">ضمانت بازگشت کالا</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-features">
+                            <div class="f-icon">
+                                <img class="im" src="./images/support.png" alt="">
+                            </div>
+                            <h6 class="p-features">پشتیانی 24 ساعته</h6>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-features">
+                            <div class="f-icon">
+                                <img class="im" src="./images/secure-payment.png" alt="">
+                            </div>
+                            <h6 class="p-features">پرداخت امن</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="list-group">
+                        <div class="footer_group_item">
+                            <p class="p-title">
+                                دسترسی سریع :
+                            </p>
+                        </div>
+                        <a href="#" class="footer-item">صفحه اصلی </a>
+                        <a href="#" class="footer-item">فروشگاه </a>
+                        <a href="#" class="footer-item">تماس با ما </a>
+                        <a href="#" class="footer-item">درباره ما </a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="list-group">
+                        <div class="footer_group_item">
+                            <p class="p-title">
+                                خدمات مشتریان :
+                            </p>
+                        </div>
+                        <a href="#" class="footer-item">سوالات متداول </a>
+                        <a href="#" class="footer-item">ورود به حساب </a>
+                        <a href="#" class="footer-item">سوابق سفارشات </a>
+                        <a href="#" class="footer-item">پیگیری سفارش </a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3" style=" text-align: center;">
+                    <div class="list-group">
+                        <div class="footer_group_item">
+                            <p class="p-title">
+                                ارتباط با ما :
+                            </p>
+                        </div>
+                        <a href="#" class="a-contactwith cont-telegram">
+                            <span>Telegram</span>
+                            <i class="fa fa-telegram"></i> 
+                        </a>
+                        <a href=" #" class="a-contactwith cont-instagram">
+                                <span>Instagram</span>
+                                <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="#" class="a-contactwith cont-whatsapp">
+                            <span>Whatsapp</span>
+                            <i class="fa fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="div-informant">
+                        <p>
+                            <span>از تخفیف ها و جدید ترین ها با خبر شوید :</span>
+                        </p>
+                        <div class="div-fields">
+                            <form id=" " method=" ">
+                                <div class="div-inputs row">
+                                    <input class="col-9 in-email" type="email" name="EMAIL"
+                                        placeholder="ایمیل خود را وارد کنید">
+                                    <input class="col-3 in-send" type="submit" value="ارسال">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 div-txt-ls">
+                    <p>فروشگاه اینترنتی لوازم جانبی کامپیوتر</p>
+                    <p>با پایبندی به سه اصل، رضایت مشتری، قیمت پایین کالا و تضمین اصل‌بودن کالا موفق شده تا همگام با
+                        فروشگاه‌های معتبر ایران، به یکی از فروشگاه اینترنتی ایران تبدیل شود.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="footer-img">
+                        <img class="im-footer" width="225" height="290" src="./images/logo_enmad.jpg"
+                            alt="فروشگاه لوازم جانبی">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 container div-copyright"> تمامی
+                    حقوق مادی و معنوی این صفحه محفوظ می باشد.</div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
